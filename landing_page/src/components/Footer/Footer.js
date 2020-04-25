@@ -9,7 +9,9 @@ const Footer = () => {
   return (
       <footer className="footer page-footer">
         <div className="footer-copyright text-center title-text card-text">
-          <img className="footer-action" id="contact-us" src={WriteToDevelopers} alt="write" />
+          <a href="mailto:name@email.com">
+            <img className="footer-action" id="contact-us" src={WriteToDevelopers} alt="write" />
+          </a>
           <div className="footer-action footer-text">© Medlibra 2020. {t('footer.rightsReserved')}</div>
         </div>
       </footer>
