@@ -1,0 +1,52 @@
+.background-images {
+    background-image: url('/images/phone-black.png'), url('/images/phone-white.png');
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1441px) {
+    .background-images {
+        background-size: initial;
+        background-position-y: -75px, 220px;
+        background-position-x: 100%, 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .background-images {
+        background-size: initial;
+        background-position-y: -100px, 205px;
+        background-position-x: 815px, 715px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .background-images {
+        background-size: initial;
+        background-position-y: -100px, 205px;
+        background-position-x: 800px, 690px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background-images {
+        background-size: initial;
+        background-position-y: -100px, 205px;
+        background-position-x: 605px, 498px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background-images {
+        background-size: initial;
+        background-position-y: -100px, 205px;
+        background-position-x: 335px, 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .background-images {
+        background-size: contain;
+        background-position-y: 420px, 540px;
+        background-position-x: 40px, -11px;
+    }
+}

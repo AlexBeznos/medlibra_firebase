@@ -1,0 +1,183 @@
+.background, .loader {
+    background: linear-gradient(90deg, rgba(26, 29, 29, 0.95) 0%, rgba(26, 29, 29, 0.6175) 100%), linear-gradient(90deg, #5B17AB 0%, #731DD8 100%);
+}
+
+.loader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-text {
+    color: white;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+
+@media screen and (min-width: 1441px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 64px !important;
+        line-height: 76px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 64px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 64px !important;
+        line-height: 76px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 64px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 64px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 36px !important;
+        line-height: 48px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 64px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 36px !important;
+        line-height: 48px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 48px !important;
+        line-height: 64px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 36px !important;
+        line-height: 48px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 600 !important;
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h2 {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    h3 {
+        font-weight: 500 !important;
+        font-size: 20px !important;
+        line-height: 28px !important;
+        letter-spacing: 0.0025em !important;
+    }
+    p {
+        font-weight: normal !important;
+        font-size: 20px !important;
+        line-height: 28px !important;
+        letter-spacing: 0.0025em !important;
+    }
+}

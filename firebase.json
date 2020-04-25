@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "landing/build",
+    "public": "landing_page/build",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "landing/build/index.html"
+        "destination": "landing_page/build/index.html"
       }
     ]
   },

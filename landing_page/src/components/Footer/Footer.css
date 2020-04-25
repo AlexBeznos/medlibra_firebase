@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 20px;
+    height: 224px;
+    background: #1A1D1D;
+}
+
+.footer-action {
+    margin-top: 56px;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 28px;
+}

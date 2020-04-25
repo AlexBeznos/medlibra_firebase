@@ -1,0 +1,82 @@
+.header {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+    /* _dust */
+    background: #1A1D1D;
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.0025em;
+    cursor: pointer;
+    color: #FEFBF6;
+}
+
+.header-link:hover, .header-link:active, .header-link:focus {
+    color: #babeb8;
+}
+
+.logo {
+    width: 212px;
+ }
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        height: 104px;
+    }
+
+    .logo-row {
+        height: 64px;
+    }
+
+    .logo {
+        margin-top: 6px;
+        width: 138px;
+    }
+
+    .nav-row {
+        height: 40px;
+    }
+}
+
+.lang-picker{
+    background: transparent;
+    border: none;
+    color: rgba(254, 251, 246, 0.65);
+    font-size: 20px;
+    width: 60px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+    outline: none;
+}
+
+.lang-picker option {
+    background: #1A1D1D;
+    color: rgba(254, 251, 246, 0.65);
+    font-size: 20px;
+}
+
+div#navbarNav {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div#navbarNav a {
+    display: inline-block;
+}

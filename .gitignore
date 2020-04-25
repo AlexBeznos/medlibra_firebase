@@ -45,7 +45,8 @@ build/Release
 
 # Dependency directories
 node_modules/
-landing/node_modules/
+landing_page/node_modules/
+landing_page/build
 
 # Optional npm cache directory
 .npm

@@ -1,0 +1,46 @@
+.title {
+    margin-top: 64px;
+    padding-top: 50px;
+    color: white;
+}
+
+.title-block {
+    padding-top: 32px;
+    z-index: 1;
+}
+
+.title-text {
+    color: #FEFBF6;
+}
+
+.download-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.download-btn {
+    height: 64px;
+    width: 196px;
+    background: rgba(254, 251, 246, 0.05);
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.btn-text {
+    margin: 0;
+}
+
+.btn-icon {
+    padding: 0 20px;
+}
+
+.btn-iphone {
+    border: 2px solid #1AC6FB;
+}
+
+.btn-android {
+    border: 2px solid #24A25C;
+}
