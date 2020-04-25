@@ -50,14 +50,14 @@ const Header = () => {
         </div>
 
         <div className="row d-flex d-md-none">
-          <div className="col">
-              <a className="nav-link header-link" href="#">{t('header.download')}</a>
+          <div className="col navlink-col">
+              <a className="header-link" href="#">{t('header.download')}</a>
           </div>
-          <div className="col">
-              <a className="nav-link header-link" href="#strenghts">{t('header.advantages')}</a>
+          <div className="col navlink-col">
+              <a className="header-link" href="#strenghts">{t('header.advantages')}</a>
           </div>
-          <div className="col">
-              <a className="nav-link header-link" href="#contact-us">{t('header.contacts')}</a>
+          <div className="col navlink-col">
+              <a className="header-link" href="#contact-us">{t('header.contacts')}</a>
           </div>
         </div>
 

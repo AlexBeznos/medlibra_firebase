@@ -16,15 +16,19 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-
     text-align: center;
     letter-spacing: 0.0025em;
     cursor: pointer;
     color: #FEFBF6;
 }
 
+.navlink-col {
+    text-align: center;
+}
+
 .header-link:hover, .header-link:active, .header-link:focus {
     color: #babeb8;
+    text-decoration: none;
 }
 
 .logo {

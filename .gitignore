@@ -67,3 +67,5 @@ landing_page/build
 .env
 *.DS_Store
 
+
+\.idea/
