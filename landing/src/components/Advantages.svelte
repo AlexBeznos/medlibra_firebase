@@ -36,7 +36,7 @@
   }
 
   .overview h2,
-  .overview h3 {
+  .overview p {
     white-space: pre-line;
     text-align: center;
   }
@@ -180,8 +180,16 @@
     }
   }
 
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    .overview.container {
+      max-width: 360px;
+      max-height: 360px;
+    }
+  }
+
   @media screen and (max-width: 767px) {
     .infographics img {
+      max-width: 360px;
       opacity: 0;
       transform: translateY(-64px);
     }
@@ -237,7 +245,7 @@
       height: 352px;
     }
 
-    h3 {
+    p {
       font-size: 24px;
       line-height: 32px;
     }
@@ -252,7 +260,7 @@
       padding-bottom: 40px;
     }
 
-    h3 {
+    p {
       font-size: 32px;
       line-height: 48px;
     }
@@ -265,7 +273,7 @@
       {#each $localization.advantages.overview as overview}
         <div class="item">
           <h2 class="text-primary">{overview.title}</h2>
-          <h3 class="text-secondary">{overview.content}</h3>
+          <p class="text-secondary">{overview.content}</p>
         </div>
       {/each}
     </div>
@@ -278,7 +286,7 @@
 
         <div>
           <h2 class="text-primary">{infographics.title}</h2>
-          <h3 class="text-secondary">{infographics.content}</h3>
+          <p class="text-secondary">{infographics.content}</p>
         </div>
       </div>
     {/each}

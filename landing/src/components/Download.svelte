@@ -98,6 +98,12 @@
     }
   }
 
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+      height: auto;
+    }
+  }
+
   @media screen and (max-width: 767px) {
     h1 {
       max-width: 328px;

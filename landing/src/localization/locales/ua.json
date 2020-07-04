@@ -1,8 +1,8 @@
 {
   "currentLanguage": "укр",
   "languages": [
-    { "key": "ua", "name": "українська" },
-    { "key": "ru", "name": "російська" }
+    { "key": "/", "name": "українська" },
+    { "key": "/ru", "name": "російська" }
   ],
   "menu": {
     "download": "Завантажити",

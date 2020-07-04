@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  h1 {
+  p {
     padding: 32px 0;
   }
 
@@ -32,7 +32,7 @@
   }
 
   @media screen and (min-width: 1024px) {
-    h1 {
+    p {
       padding: 72px 0;
     }
   }
@@ -57,7 +57,7 @@
 </style>
 
 <div class="path container" id="features">
-  <h1 class="text-primary">{$localization.features.title}</h1>
+  <h2 class="text-primary">{$localization.features.title}</h2>
 
   <div class="row text-secondary">
     <p>{$localization.features.content[0]}</p>
@@ -65,7 +65,7 @@
     <p>{$localization.features.content[1]}</p>
   </div>
 
-  <h1 class="text-primary">{$localization.features.testBaseTitle}</h1>
+  <h2 class="text-primary">{$localization.features.testBaseTitle}</h2>
 
   <div class="row text-secondary">
     <p>{$localization.features.testBaseContent[0]}</p>

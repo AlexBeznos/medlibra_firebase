@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "landing/static",
+    "public": "public/export",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "function": "ssr"
+        "destination": "public/export"
       }
     ]
   },

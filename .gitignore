@@ -70,6 +70,4 @@ landing_page/build
 
 \.idea/
 
-landing/functions/__sapper__/**/*
-landing/__sapper__/**/*
-functions/__sapper__/**/*
+public/export

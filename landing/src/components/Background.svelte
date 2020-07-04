@@ -56,7 +56,7 @@
     }
   }
 
-  @media screen and (min-width: 360px) and (max-width: 767px) {
+  @media screen and (min-width: 360px) and (max-width: 575px) {
     img {
       width: 100%;
     }
@@ -69,6 +69,22 @@
     .dark {
       top: 364px;
       left: 64px;
+    }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    img {
+      width: 480px;
+    }
+
+    .dark {
+      top: 64px;
+      right: -210px;
+    }
+
+    .light {
+      top: 176px;
+      right: -124px;
     }
   }
 

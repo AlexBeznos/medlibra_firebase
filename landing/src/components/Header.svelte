@@ -38,7 +38,7 @@
     width: 50%;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 575px) {
     header {
       padding-top: 8px;
     }
@@ -65,7 +65,8 @@
       justify-content: space-between;
     }
 
-    .menu :global(a[href='#features']) {
+    .menu :global(a[href='/#features']),
+    .menu :global(a[href='/ru#features']) {
       display: none;
     }
   }
@@ -113,6 +114,20 @@
     margin-left: 44px;
     outline: 0;
     position: relative;
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 1023px) {
+    .logo {
+      height: 48px;
+    }
+
+    .segment {
+      justify-content: flex-start;
+    }
+
+    .language {
+      margin-left: 16px;
+    }
   }
 
   .language span {
@@ -164,8 +179,21 @@
     padding-right: 20px;
   }
 
-  .language-select > div:not(:nth-last-child(1)) {
+  .language-select a,
+  .language-select a:active {
+    color: rgba(254, 251, 246, 0.35);
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  .language-select > a:not(:nth-last-child(1)) {
+    text-decoration: none;
+    text-transform: none;
     padding-bottom: 8px;
+  }
+
+  .language-select > a.active {
+    color: rgba(254, 251, 246, 0.65);
   }
 
   .language:focus .language-select {
@@ -199,9 +227,12 @@
         <Arrow />
         <div class="language-select" tabindex="0">
           {#each $localization.languages as language}
-            <div on:mousedown={() => setLocale(language.key)}>
+            <a
+              class:active={language.name.startsWith($localization.currentLanguage)}
+              on:mousedown={e => e.preventDefault()}
+              href={language.key}>
               {language.name}
-            </div>
+            </a>
           {/each}
         </div>
       </div>
@@ -212,7 +243,9 @@
         <a
           class="text-inactive"
           class:active={item.link === `#${currentObservedItem}`}
-          href={item.link}>
+          href={`${$localization.languages.find(i =>
+              i.name.startsWith($localization.currentLanguage),
+            ).key}${item.link}`}>
           {item.title}
         </a>
       {/each}
