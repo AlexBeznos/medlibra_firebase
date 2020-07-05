@@ -1,5 +1,13 @@
 <script>
+  import SubscribeModal from './SubscribeModal.svelte';
   import { localization } from '../localization';
+
+  let subscribeModal;
+
+  function openSubscribeModal(e) {
+    e.preventDefault();
+    subscribeModal.open();
+  }
 </script>
 
 <style>
@@ -141,6 +149,8 @@
   }
 </style>
 
+<SubscribeModal bind:this={subscribeModal} />
+
 <div class="path container" id="download">
   <h1 class="text-primary">
     {$localization.download.title}
@@ -152,7 +162,7 @@
   <h3 class="text-secondary">{$localization.download.downloadFree}</h3>
 
   <div class="download-buttons">
-    <a href="/">
+    <a href="/" on:click={openSubscribeModal}>
       <div class="border">
         <svg width="100%" height="100%">
           <defs>
@@ -187,7 +197,7 @@
       </div>
     </a>
 
-    <a href="/">
+    <a href="/" on:click={openSubscribeModal}>
       <div class="border">
         <svg width="100%" height="100%">
           <defs>
