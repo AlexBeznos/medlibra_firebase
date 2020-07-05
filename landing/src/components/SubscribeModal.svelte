@@ -48,7 +48,7 @@
   }
 
   function container(node) {
-    // document.body.appendChild(node);
+    document.body.appendChild(node);
   }
 </script>
 
