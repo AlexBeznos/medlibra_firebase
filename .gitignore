@@ -71,3 +71,4 @@ landing_page/build
 \.idea/
 
 public/export
+landing/__sapper__
